@@ -1,0 +1,268 @@
+#main {
+  font-family: 'Montserrat', sans-serif;    
+}
+
+/* body { 
+padding-top: 65px;  
+} */
+
+.board-game {
+  border-style: solid;
+  color: black;
+  padding: 3rem;
+  margin-top: 50px;
+}
+
+.room {
+  border-style: solid;
+  color: red;
+}
+
+.player-tools {
+  border-style: solid;
+  color: red;
+  padding: 3rem;
+}
+
+
+.dice-img {
+  width: 50%;
+  height: 50%;
+}
+
+
+/* DECK */
+
+.deck
+{
+	width:50%;
+	margin: 20px auto;
+	background:dodgerblue;
+	border:solid 10px black;
+	padding: 10px;
+	border-radius:10px;
+	text-align: center;
+	color:white;
+}
+
+.card
+{
+	padding: 10px;
+	border: solid 1px #808080;
+	background-color: white;
+	display: inline-block;
+	border-radius: 10px;
+	font-size: 14pt;
+	text-align: center;
+	color:black;
+	margin: 3px;
+}
+
+.btn
+{
+	background:white;
+	padding: 10px 20px;
+	border-radius:30px;
+	margin: 10px;
+	display:inline-block;
+}
+
+.card .value{
+	font-size:15pt;
+	font-family: sans-serif;
+}
+
+.card .suit
+{
+	background-image: url('../card.png');
+	height: 100px;
+	width: 90px;
+}
+
+.card .diamonds
+{
+	background-position-y: 100px;
+}
+
+.card .hearts
+{
+	background-position-x: 90px;
+}
+
+.card .clubs
+{
+	background-position-x:90px;
+	background-position-y:100px;
+}
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top:100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFreeCodeCamp:hover {
+  background-color: #087e2f;
+}
+
+.social-network a.icoGitHub:hover {
+  background-color: #4c4e50;
+}
+
+.social-network a.icoHackerrank:hover {
+  background-color: #2ca354;
+}
+
+.social-network a.icoEmail:hover {
+  background-color: #c92626;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoGitHub:hover i,
+.social-network a.icoFreeCodeCamp:hover i,
+.social-network a.icoEmail:hover i,
+.social-network a.icoHackerrank:hover i {
+  color: #fff;
+}
+
+.social-network a.icoLinkedinFot {
+  background-color: #007bb7;
+}
+
+.social-network a.icoGitHubFot {
+  background-color: #4c4e50;
+}
+
+.social-network a.icoFreeCodeCampFot {
+  background-color: #087e2f;
+}
+
+.social-network a.icoHackerrankFot {
+  background-color: #2ca354;
+}
+
+.social-network a.icoEmailFot {
+  background-color: #c92626;
+}
+
+.social-network a.icoFacebookFot i,
+.social-network a.icoLinkedinFot i,
+.social-network a.icoGitHubFot i,
+.social-network a.icoFreeCodeCampFot i,
+.social-network a.icoEmailFot i,
+.social-network a.icoHackerrankFot i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+

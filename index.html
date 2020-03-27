@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-company-white ">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" width="160" height="40" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Welcome</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li> -->       
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container board-game"> 
+      <div class="row">
+        <div class="col-4 room">
+          <p>sitting room</p>
+        </div>
+        <div class="col-4 room">
+          <p>theatre room</p>
+        </div>
+        <div class="col-4 room">
+          <p>garden room</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 room">
+          <p>dinning room</p>
+        </div>
+        <div class="col-4 room">
+          <p>center</p>
+        </div>
+        <div class="col-4 room">
+          <div class="col-12 room">
+            <p>master bedroom</p>
+          </div>
+          <div class="col-12 room">
+            <p>spare bedroom</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 room">
+          <p>kitchen room</p>
+        </div>
+        <div class="col-4 room">
+          <p>entrance room</p>
+        </div>
+        <div class="col-4 room">
+          <p>game room</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container player-tools">
+      <div class="row">
+        <div class="col-3 room">
+          <a href="javascript:void(0)" class="btn btn-primary" onclick="rollDice()">Roll!!</a>
+          <img class="dice-img" src="images/dice/dice1.png">
+          <p>Here dice, name, points, etc</p>
+        </div>
+        <div class="col-6 room">
+          <p>His/Her cards</p>
+          <div class="deck">
+            <div id="playerDeck"></div>
+          </div>
+            <div class="deck"> 
+              <h4>Characters</h4>
+              <a href="javascript:void(0)" class="btn" onclick="shuffle(characters)">Shuffle</a>
+              <div id="characters-deck"></div>
+              <h4>Weapons</h4>
+              <a href="javascript:void(0)" class="btn" onclick="shuffle(weapons)">Shuffle</a>
+              <div id="weapons-deck"></div>
+              <h4>Rooms</h4>
+              <a href="javascript:void(0)" class="btn" onclick="shuffle(rooms)">Shuffle</a>
+              <div id="rooms-deck"></div>
+            </div>
+        </div>
+        <div class="col-3 room">
+          <h4>Log</h4>
+          <textarea class="form-control" rows="5"></textarea>
+        </div>
+      </div>
+    </div>
+
+ 
+
+<!--Footer-->
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">  
+        <div class="col">
+            <p>Board Game | Mystery Game | Small Project v0.1</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 copy">
+            <p class="text-center">&copy; Copyright 2020 - Mauricio Lattke.  All rights reserved.</p>
+        </div>
+    </div>
+  </div>
+  </div>
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/421de8d672.js" crossorigin="anonymous"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>
